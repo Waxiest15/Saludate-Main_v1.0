@@ -1,0 +1,626 @@
+[
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-v24_saludate_logo.jpg.flat",
+        "source": "com.example.saludate.app-main-7:/drawable-v24/saludate_logo.jpg"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.saludate.app-main-7:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_content_main.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_purple_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/purple_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_clock.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/clock.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_calendar_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/calendar_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_healt_condition.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_healt_condition.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_e_down_arrow.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/e_down_arrow.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_blue3_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/blue3_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_green_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/green_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/font_raleway_semibold.xml.flat",
+        "source": "com.example.saludate.app-main-7:/font/raleway_semibold.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_plus.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/plus.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_purple_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/purple_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_blue_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/blue_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_red_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/red_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_clock.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/clock.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_green_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/green_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_clock.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/clock.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_search_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/search_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_blue_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/blue_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_rounded_medicines_container_e.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/rounded_medicines_container_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_blue_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/blue_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_yellow_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/yellow_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_main.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_blue2_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/blue2_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_green_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/green_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_red_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/red_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_purple_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/purple_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_search_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/search_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_nav_header_main.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_yellow_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/yellow_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_bloodpresure.png.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/bloodpresure.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_red_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/red_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_yellow_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/yellow_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_plus.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/plus.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_search_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/search_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_round_blue.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/round_blue.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_blue_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/blue_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_blue2_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/blue2_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_temperature.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_temperature.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_purple_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/purple_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_green_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/green_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_blue2_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/blue2_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_yes.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/yes.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_calendar_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/calendar_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_calendar_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/calendar_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-v24_round_yellow.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable-v24/round_yellow.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/font_inter.xml.flat",
+        "source": "com.example.saludate.app-main-7:/font/inter.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/font_raleway_thin.xml.flat",
+        "source": "com.example.saludate.app-main-7:/font/raleway_thin.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_add_test_e.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_add_test_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_blue2_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/blue2_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_blue_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/blue_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_breathing_frecuency.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_breathing_frecuency.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_clock.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/clock.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_yes.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/yes.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_fragment_gallery.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_medical_test_e.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_medical_test_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/xml_backup_rules.xml.flat",
+        "source": "com.example.saludate.app-main-7:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_calendar_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/calendar_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_blue2_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/blue2_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_blue_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/blue_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_blue3_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/blue3_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/font_raleway.xml.flat",
+        "source": "com.example.saludate.app-main-7:/font/raleway.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_search_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/search_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_yes.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/yes.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_fragment_slideshow.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/fragment_slideshow.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.saludate.app-main-7:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_search_e.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/search_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_blue3_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/blue3_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_purple_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/purple_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_yellow_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/yellow_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_heartrate.png.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/heartrate.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_breathingfrecuency.png.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/breathingfrecuency.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_calendar_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/calendar_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_plus.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/plus.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_clock.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/clock.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_red_chart.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/red_chart.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_healtcondition.png.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/healtcondition.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_red_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/red_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_purple_chart.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/purple_chart.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_heart_rate.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_heart_rate.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_rounded_rectangle_e.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/rounded_rectangle_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_blue2_chart.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/blue2_chart.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_calendar_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/calendar_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_app_bar_main.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_clock.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/clock.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_yellow_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/yellow_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_green_chart.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/green_chart.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_e_up_back_arrow.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/e_up_back_arrow.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_yes.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/yes.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_oxygenation.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_oxygenation.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_blue2_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/blue2_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_green_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/green_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_rounded_input_e.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/rounded_input_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_clock.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/clock.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_green_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/green_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_search_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/search_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/menu_main.xml.flat",
+        "source": "com.example.saludate.app-main-7:/menu/main.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_fragment_notifications.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_sugar_blood.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_sugar_blood.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_purple_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/purple_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_yes.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/yes.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xhdpi_yellow_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xhdpi/yellow_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_round_purple.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/round_purple.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_yes.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/yes.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_red_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/red_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_rounded_rectange_e2.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/rounded_rectange_e2.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxhdpi_plus.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxhdpi/plus.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_calendar_e.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/calendar_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_medicine_e.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_medicine_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_e_medical_care.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/e_medical_care.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_vital_signs.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_vital_signs.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_blue3_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/blue3_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_yellow_chart.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/yellow_chart.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_red_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/red_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_fragment_home.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_plus.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/plus.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/font_roboto.xml.flat",
+        "source": "com.example.saludate.app-main-7:/font/roboto.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-mdpi_plus.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-mdpi/plus.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_sugarblood.png.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/sugarblood.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_oxygenation.png.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/oxygenation.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_rounded_medicine_e.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/rounded_medicine_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-xxxhdpi_blue3_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-xxxhdpi/blue3_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_blood_preasure.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_blood_preasure.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_blue_chart.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/blue_chart.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_temperature.png.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/temperature.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-anydpi-v24_blue3_chart.xml.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-anydpi-v24/blue3_chart.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/layout_activity_register_e.xml.flat",
+        "source": "com.example.saludate.app-main-7:/layout/activity_register_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_blue3_chart.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/blue3_chart.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-hdpi_plus.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-hdpi/plus.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/menu_activity_main_drawer.xml.flat",
+        "source": "com.example.saludate.app-main-7:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_search_e.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/search_e.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.saludate.app-main-7:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable-ldpi_yes.png.flat",
+        "source": "com.example.saludate.app-pngs-0:/drawable-ldpi/yes.png"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_back.xml.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/back.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-merged_res-5:/drawable_download_e.png.flat",
+        "source": "com.example.saludate.app-main-7:/drawable/download_e.png"
+    }
+]

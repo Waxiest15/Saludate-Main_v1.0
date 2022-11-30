@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_heart_rate.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_heart_rate.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_healt_condition.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_healt_condition.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_blood_preasure.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_blood_preasure.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/fragment_notifications.xml",
+        "source": "com.example.saludate.app-main-7:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/fragment_home.xml",
+        "source": "com.example.saludate.app-main-7:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/nav_header_main.xml",
+        "source": "com.example.saludate.app-main-7:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_vital_signs.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_vital_signs.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/content_main.xml",
+        "source": "com.example.saludate.app-main-7:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_medical_test_e.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_medical_test_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_medicine_e.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_medicine_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_temperature.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_temperature.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_register_e.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_register_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_oxygenation.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_oxygenation.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_sugar_blood.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_sugar_blood.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_add_test_e.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_add_test_e.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/app_bar_main.xml",
+        "source": "com.example.saludate.app-main-7:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/fragment_gallery.xml",
+        "source": "com.example.saludate.app-main-7:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/activity_breathing_frecuency.xml",
+        "source": "com.example.saludate.app-main-7:/layout/activity_breathing_frecuency.xml"
+    },
+    {
+        "merged": "com.example.saludate.app-mergeDebugResources-4:/layout/fragment_slideshow.xml",
+        "source": "com.example.saludate.app-main-7:/layout/fragment_slideshow.xml"
+    }
+]

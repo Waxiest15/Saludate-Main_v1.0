@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_homeh"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/accountFragment"
+            android:icon="@drawable/ic_menu_personh"
+            android:title="@string/account" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_bellh"
+            android:title="@string/notification" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_eyeh"
+            android:title="@string/night_mode" />
+        <item
+            android:id="@+id/priSecFragment2"
+            android:icon="@drawable/ic_menu_securityh"
+            android:title="@string/priSec" />
+        <item
+            android:id="@+id/languageFragment2"
+            android:icon="@drawable/ic_menu_languageh"
+            android:title="@string/language" />
+    </group>
+</menu>

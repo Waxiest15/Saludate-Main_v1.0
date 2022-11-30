@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="green_acua">#7DB0B3</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_blue">#5C7EAE</color>
+    <color name="bluish">#7DB0B3</color>
+    <color name="gray">#62635C</color>
+    <color name="light_gray">#F4F4F5</color>
+    <color name="kind_of_white">#FBFCF8</color>
+    <color name="kind_of_blue">#E0E8F3</color>
+    <color name="gris_main">#B0C1D9</color>
+    <color name="rojo_main">#D92929</color>
+    <color name ="verde_ims">#B8D9D9</color>
+    <color name="gris_base">#DFDFDF</color>
+    <color name="azul_base">#B6DBF2</color>
+    <color name="gris_mas_oscuro">#D1D1DA</color>
+
+    <color name="cian">#D1D1DA</color>
+    <color name="border_gray">#D1D1DA</color>
+    <color name="medicine_head">#D1D1DA</color>
+    <color name="button_blue_e">#D1D1DA</color>
+    <color name="switch_on">#D1D1DA</color>
+    <color name="switch_off">#D1D1DA</color>
+    <color name="letters">#5C7EAE</color>
+
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    app:circularflow_radiusInDP="5"
+    tools:context=".ui.prisec.PriSecFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/txt_bgh"
+            android:layout_width="395dp"
+            android:layout_height="800dp"
+            android:background="@drawable/rounded_rectangleh"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_priSech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/raleway_bold"
+            android:lineSpacingExtra="8sp"
+            android:paddingStart="20dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="3dp"
+            android:paddingBottom="1dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vulputate felis lectus, id commodo sapien ornare non. Praesent aliquam sodales odio in efficitur. Vestibulum non nunc magna. Mauris aliquam semper pharetra. Mauris malesuada ac felis eu varius. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin sit amet varius sem. Maecenas vel velit ac lacus sodales suscipit.  Proin placerat consequat elit ac vehicula. Duis in risus a dui dapibus congue. Etiam a blandit purus. Donec ac nisi diam. Nam ipsum lorem, tincidunt sit amet pulvinar in, viverra fermentum ipsum. Mauris in dictum mauris, vitae malesuada lectus. In molestie est fermentum pharetra malesuada. Nullam tortor est, pulvinar vel enim quis, ornare mattis urna. Nam vitae interdum lacus.  Varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris in venenatis elit, in pretium nulla. Donec sit amet ligula dolor. "
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
