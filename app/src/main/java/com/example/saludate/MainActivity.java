@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.Menu;
 import android.widget.Button;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
@@ -49,6 +50,14 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent individual = new Intent(v.getContext(), PacienteInfo.class);
+                startActivity(individual);
+            }
+        });
+
+        FloatingActionButton fab = findViewById(R.id.fab_patientAdd_fragment);
+        fab.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent individual = new Intent(v.getContext(), RegisterType.class);
                 startActivity(individual);
             }
         });

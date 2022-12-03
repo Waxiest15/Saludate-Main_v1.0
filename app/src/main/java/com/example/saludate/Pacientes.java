@@ -16,7 +16,7 @@ public class Pacientes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pacientes);
 
-        FloatingActionButton button = findViewById(R.id.fab_patientAdd);
+        FloatingActionButton button = findViewById(R.id.fab_patientAdd_fragment);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent_addPatient;
