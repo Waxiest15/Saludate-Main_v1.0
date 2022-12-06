@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fondo"
     tools:context=".BreathingFrecuency">
 
 
@@ -57,7 +58,6 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -69,7 +69,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView13"
@@ -108,20 +108,20 @@
                 android:layout_marginStart="18dp"
                 android:layout_marginTop="14dp"
                 android:layout_marginEnd="25dp"
+                android:contentDescription="todo"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView14"
-                app:srcCompat="@drawable/blue2_chart"
-                android:contentDescription="todo" />
+                app:srcCompat="@drawable/blue2_chart" />
 
             <View
                 android:id="@+id/divider"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="3dp"
-                android:layout_marginStart="20dp"
                 android:background="?android:attr/listDivider" />
 
             <TextView
@@ -141,27 +141,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints=""
                 android:background="@drawable/rounded_rectangle_e"
                 android:drawableEnd="@drawable/clock"
-                android:padding="10dp"
                 android:drawablePadding="10dp"
                 android:ems="10"
                 android:inputType="time"
+                android:padding="10dp"
                 android:text="value"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
-                android:autofillHints="" />
+                android:textColor="@color/black" />
 
             <View
                 android:id="@+id/divider4"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="3dp"
-                android:layout_marginStart="20dp"
                 android:background="?android:attr/listDivider" />
 
             <TextView
@@ -181,27 +182,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints=""
                 android:background="@drawable/rounded_rectangle_e"
                 android:drawableEnd="@drawable/clock"
-                android:padding="10dp"
                 android:drawablePadding="10dp"
                 android:ems="10"
                 android:inputType="time"
+                android:padding="10dp"
                 android:text="0"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
-                android:autofillHints="" />
+                android:textColor="@color/black" />
 
             <View
                 android:id="@+id/divider5"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="20dp"
-                android:layout_marginStart="20dp"
                 android:background="?android:attr/listDivider" />
 
             <Button
@@ -234,27 +236,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
                 android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:autofillHints=""
                 android:background="@drawable/rounded_rectangle_e"
                 android:drawableEnd="@drawable/clock"
-                android:padding="10dp"
                 android:drawablePadding="10dp"
                 android:ems="10"
                 android:inputType="time"
+                android:padding="10dp"
                 android:text="0"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
-                android:autofillHints=""  />
+                android:textColor="@color/black" />
 
             <View
                 android:id="@+id/divider6"
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="30dp"
-                android:layout_marginStart="20dp"
                 android:background="?android:attr/listDivider" />
 
         </LinearLayout>

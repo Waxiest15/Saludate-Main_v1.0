@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fondo"
     android:onClick="LogtoPass"
     tools:context=".Login">
 
@@ -22,9 +23,12 @@
         android:layout_width="333dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
+        android:backgroundTint="@color/text_hint"
         android:ems="10"
         android:hint="email"
         android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ImageLoginM" />
@@ -34,9 +38,12 @@
         android:layout_width="333dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
+        android:backgroundTint="@color/text_hint"
         android:ems="10"
         android:hint="password"
         android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/text_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email_LoginM" />
@@ -57,6 +64,7 @@
             android:layout_marginTop="16dp"
             android:text="-----Or login with----"
             android:textAlignment="center"
+            android:textColor="@color/text_hint"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -68,6 +76,7 @@
             android:layout_height="76dp"
             android:layout_marginStart="48dp"
             android:layout_marginTop="16dp"
+            android:backgroundTint="@color/white"
             android:src="@drawable/face_placeholder"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/login_TextM" />
@@ -78,6 +87,7 @@
             android:layout_height="76dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="16dp"
+            android:backgroundTint="@color/white"
             android:src="@drawable/email_placeholder"
             app:layout_constraintStart_toEndOf="@+id/facebookbtnM"
             app:layout_constraintTop_toBottomOf="@+id/login_TextM" />
@@ -89,6 +99,7 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="48dp"
+            android:backgroundTint="@color/white"
             android:src="@drawable/apple_placeholder"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -100,13 +111,13 @@
 
     <TextView
         android:id="@+id/AccountLogM"
-        android:layout_width="141dp"
-        android:layout_height="19dp"
+        android:layout_width="161dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="24dp"
         android:text="Dont have an account?"
+        android:textColor="@color/text_hint"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.422"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.0" />
@@ -117,9 +128,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
         android:onClick="LogtoSign"
         android:text="Sign Up"
         android:textColor="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.338"
         app:layout_constraintStart_toEndOf="@+id/AccountLogM"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
@@ -141,6 +155,7 @@
         android:layout_marginTop="24dp"
         android:fontFamily="@font/raleway_bold"
         android:text="Welcome Back"
+        android:textColor="@color/text_hint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -152,6 +167,7 @@
         android:layout_marginTop="8dp"
         android:fontFamily="@font/raleway_bold"
         android:text="Login"
+        android:textColor="@color/text_hint"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

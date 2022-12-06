@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fondo"
     tools:context=".Register_e">
+
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -231,9 +233,9 @@
                         android:layout_marginBottom="30dp"
                         android:height="60dp"
                         android:backgroundTint="@color/button_blue_e"
-                        android:text="More Medicine"
                         android:drawableLeft="@drawable/plus"
                         android:drawablePadding="25dp"
+                        android:text="More Medicine"
                         android:textColor="#000000"
                         app:cornerRadius="20dp"
                         app:layout_constraintBottom_toBottomOf="parent"

@@ -11,6 +11,7 @@
         android:id="@+id/scroll_manualRegister"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/fondo"
         tools:ignore="SpeakableTextPresentCheck">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -50,6 +51,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:text="@string/full_name"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,6 +62,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/manualRegister_gender"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_Name" />
 
@@ -70,6 +73,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/manualRegister_age"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_Gender" />
 
@@ -80,6 +84,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/manualRegister_date_birth"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_age" />
 
@@ -110,6 +115,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/manualRegister_check_in_time"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_Date" />
 
@@ -120,6 +126,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/manualRegister_bed"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_checkInCome" />
 
@@ -130,6 +137,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/manualRegister_days_of_stay"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_Bed" />
 
@@ -140,6 +148,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/manualRegister_blood_type"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_daysOfState" />
 
@@ -150,6 +159,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/manualRegister_income_orientation"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_bloodType" />
 
@@ -160,6 +170,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/manualRegister_medical_record_number"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_income" />
 
@@ -170,6 +181,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/manualRegister_medical_diagnostic"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_medicalRecordNumber" />
 
@@ -180,6 +192,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:text="@string/manualRegister_health_condition"
+                    android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_diagnostic" />
 
@@ -197,6 +210,7 @@
                     android:labelFor="@id/txt_fullName"
                     android:padding="10dp"
                     android:text="@string/manualRegister_mark_ramos"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.043"
                     app:layout_constraintStart_toStartOf="parent"
@@ -216,6 +230,7 @@
                     android:inputType="text"
                     android:padding="10dp"
                     android:text="@string/manualRegister_male"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/txt_gender" />
@@ -233,6 +248,7 @@
                     android:inputType="number"
                     android:padding="10dp"
                     android:text="@string/manualRegister__21"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -251,6 +267,7 @@
                     android:inputType="date"
                     android:padding="10dp"
                     android:text="@string/manualRegister_may_20"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -269,6 +286,7 @@
                     android:inputType="text"
                     android:padding="10dp"
                     android:text="@string/manualRegister_single"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -287,6 +305,7 @@
                     android:inputType="date"
                     android:padding="10dp"
                     android:text="@string/manualRegister_june_20_2"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -306,6 +325,7 @@
                     android:inputType="date"
                     android:padding="10dp"
                     android:text="@string/manualRegister_june_20"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -324,6 +344,7 @@
                     android:inputType="number"
                     android:padding="10dp"
                     android:text="@string/manualRegister__3"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -342,6 +363,7 @@
                     android:inputType="number"
                     android:padding="10dp"
                     android:text="@string/manualRegister__1"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -360,6 +382,7 @@
                     android:inputType="text"
                     android:padding="10dp"
                     android:text="@string/manualRegister_oh"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -378,6 +401,7 @@
                     android:inputType="text"
                     android:padding="10dp"
                     android:text="@string/manualRegister_yes"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -396,6 +420,7 @@
                     android:inputType="text"
                     android:padding="10dp"
                     android:text="@string/manualRegister_no_123456"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -414,6 +439,7 @@
                     android:inputType="text"
                     android:padding="10dp"
                     android:text="@string/manualRegister_cancer"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -432,6 +458,7 @@
                     android:inputType="date|text"
                     android:padding="10dp"
                     android:text="@string/manualRegister_very_serious"
+                    android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
@@ -462,6 +489,7 @@
                 android:layout_marginBottom="16dp"
                 android:text="Register"
                 android:textAlignment="center"
+                android:textColor="@color/text_hint"
                 android:textSize="34sp"
                 app:layout_constraintBottom_toTopOf="@+id/constraintLayout9"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -469,16 +497,16 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
-                android:id="@+id/btn_addMedicine"
+            <ImageButton
+                android:id="@+id/imageButton3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:text="@string/backsymbol"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/fondo"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="SpeakableTextPresentCheck" />
+                app:srcCompat="@drawable/back" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

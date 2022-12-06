@@ -40,6 +40,7 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="52dp"
             android:background="?android:attr/listDivider"
+            android:backgroundTint="@color/text_hint"
             app:layout_constraintStart_toEndOf="@+id/img_phoneh"
             app:layout_constraintTop_toTopOf="@+id/txt_phone1h" />
 
@@ -50,6 +51,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="40dp"
             android:text="03-07-2021"
+            android:textColor="@color/text_hint"
             android:textSize="20sp"
             app:layout_constraintStart_toEndOf="@+id/img_calendarh"
             app:layout_constraintTop_toBottomOf="@+id/dividerh" />
@@ -61,6 +63,7 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="20dp"
             android:background="?android:attr/listDivider"
+            android:backgroundTint="@color/text_hint"
             app:layout_constraintStart_toEndOf="@+id/img_calendarh"
             app:layout_constraintTop_toBottomOf="@+id/txt_date1h" />
 
@@ -95,6 +98,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="32dp"
             android:text="(262) 900-5279"
+            android:textColor="@color/text_hint"
             android:textSize="20sp"
             app:layout_constraintStart_toEndOf="@+id/img_phoneh"
             app:layout_constraintTop_toBottomOf="@+id/text_account" />
@@ -113,7 +117,7 @@
             app:layout_constraintTop_toBottomOf="@+id/divider2h" />
 
         <ImageButton
-            android:id="@+id/btn_correct1h"
+            android:id="@+id/btn_correct1h_f"
             android:layout_width="48dp"
             android:layout_height="48dp"
             android:layout_marginTop="16dp"

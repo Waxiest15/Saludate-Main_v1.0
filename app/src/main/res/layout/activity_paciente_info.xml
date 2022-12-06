@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gris_base"
+    android:background="@color/fondo"
     tools:context=".PacienteInfo">
 
     <ScrollView
@@ -33,17 +33,8 @@
                 app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/user_photo"
                 tools:src="@drawable/user_photo" />
-
-            <Button
-                android:id="@+id/btn_back_patient"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:text="@string/xd"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/txt_patient_name"
@@ -51,6 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="@string/user"
+                android:textColor="@color/text_hint"
                 android:textSize="24sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -129,6 +121,7 @@
                     android:background="@color/black"
                     android:gravity="center"
                     android:text="@string/Wendsday"
+                    android:textColor="@color/white"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/txt_monday2"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -173,6 +166,7 @@
                 app:layout_constraintHorizontal_bias="0.501"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_toMedicalTest"
+                app:srcCompat="@drawable/qr"
                 tools:src="@drawable/qr" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -211,6 +205,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/print"
                     tools:src="@drawable/print" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -249,6 +244,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/print"
                     tools:src="@drawable/print" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -306,6 +302,7 @@
                     android:layout_marginTop="12dp"
                     android:text="@string/patient_age"
                     android:textAlignment="viewStart"
+                    android:textColor="@color/text_hint"
                     android:textSize="24sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView18" />
@@ -319,25 +316,28 @@
                     android:layout_marginBottom="16dp"
                     android:text="@string/health_condition"
                     android:textAlignment="viewStart"
+                    android:textColor="@color/text_hint"
                     android:textSize="24sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView19" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView19"
+                    app:layout_constraintVertical_bias="0.0" />
 
                 <TextView
                     android:id="@+id/textView26"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
-                    android:layout_marginEnd="84dp"
+                    android:layout_marginEnd="60dp"
                     android:layout_marginBottom="16dp"
                     android:text="@string/Bed"
                     android:textAlignment="viewStart"
+                    android:textColor="@color/text_hint"
                     android:textSize="24sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView20"
-                    app:layout_constraintVertical_bias="0.914" />
+                    app:layout_constraintVertical_bias="0.714" />
 
                 <TextView
                     android:id="@+id/textView20"
@@ -346,6 +346,7 @@
                     android:layout_marginTop="12dp"
                     android:layout_marginEnd="32dp"
                     android:text="@string/Preassure"
+                    android:textColor="@color/text_hint"
                     android:textSize="24sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView18" />
@@ -356,6 +357,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:text="@string/Temperature"
+                    android:textColor="@color/text_hint"
                     android:textSize="24sp"
                     app:layout_constraintEnd_toStartOf="@+id/textView20"
                     app:layout_constraintHorizontal_bias="0.623"
@@ -369,6 +371,7 @@
                     android:layout_marginTop="32dp"
                     android:layout_marginBottom="16dp"
                     android:text="@string/Glucose"
+                    android:textColor="@color/text_hint"
                     android:textSize="24sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/textView26"
@@ -387,10 +390,12 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/medicine"
+                android:textColor="@color/black"
                 app:icon="@drawable/e_medical_care"
                 app:iconGravity="end"
                 app:iconTint="#FAF7F7"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 
@@ -402,6 +407,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/vital_signs"
+                android:textColor="@color/black"
                 app:icon="@drawable/vital_signs"
                 app:iconGravity="end"
                 app:iconTint="#FAF7F7"
@@ -418,6 +424,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/notes"
+                android:textColor="@color/black"
                 app:icon="@drawable/notes"
                 app:iconGravity="end"
                 app:iconTint="#FAF7F7"
@@ -434,6 +441,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/medical_test"
+                android:textColor="@color/black"
                 app:icon="@drawable/medical_test"
                 app:iconGravity="end"
                 app:iconTint="#FAF7F7"
@@ -441,6 +449,17 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_toNotes" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/fondo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/back" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

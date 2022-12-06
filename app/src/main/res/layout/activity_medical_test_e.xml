@@ -4,19 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fondo"
     tools:context=".MedicalTest_e">
+
+
     <ImageButton
         android:id="@+id/back2"
-        android:layout_width="68dp"
-        android:layout_height="64dp"
+        android:layout_width="46dp"
+        android:layout_height="54dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
         android:contentDescription="back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
-
 
     <ImageButton
         android:id="@+id/next"
@@ -36,7 +38,7 @@
         android:layout_width="231dp"
         android:layout_height="48dp"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="25dp"
         android:autofillHints=""
         android:background="@drawable/rounded_rectangle_e"
@@ -50,7 +52,7 @@
         android:textAllCaps="false"
         android:textColor="@color/border_gray"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.197"
         app:layout_constraintStart_toEndOf="@+id/back2"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextContrastCheck" />
@@ -137,6 +139,7 @@
                 android:layout_marginBottom="28dp"
                 android:fontFamily="@font/raleway"
                 android:text="done by:Dr. Romo"
+                android:textColor="@color/text_hint"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -175,6 +178,7 @@
                 android:layout_marginBottom="88dp"
                 android:fontFamily="@font/raleway"
                 android:text="date 202 10 18"
+                android:textColor="@color/text_hint"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -187,6 +191,7 @@
                 android:layout_marginBottom="124dp"
                 android:fontFamily="@font/raleway"
                 android:text="Done by Dr. Romo"
+                android:textColor="@color/text_hint"
                 android:textSize="20sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -244,11 +249,12 @@
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="44dp"
             android:height="60dp"
-            android:backgroundTint="@color/button_blue_e"
+            android:background="@color/bluish"
+            android:backgroundTint="@color/border_gray"
             android:drawableLeft="@drawable/plus"
             android:drawablePadding="25dp"
             android:text="Add Test"
-            android:textColor="#000000"
+            android:textColor="@color/white"
             app:cornerRadius="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

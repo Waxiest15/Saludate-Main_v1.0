@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/fondo"
     tools:context=".Medicine_e">
 
 
@@ -146,6 +147,7 @@
                 android:layout_marginBottom="24dp"
                 android:fontFamily="@font/raleway"
                 android:text="10mg"
+                android:textColor="@color/text_hint"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -204,6 +206,7 @@
                 android:layout_marginBottom="24dp"
                 android:fontFamily="@font/raleway"
                 android:text="30mg"
+                android:textColor="@color/text_hint"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -239,6 +242,7 @@
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/raleway"
                 android:text="@string/via_oral_e"
+                android:textColor="@color/text_hint"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -251,6 +255,7 @@
                 android:layout_marginBottom="48dp"
                 android:fontFamily="@font/raleway"
                 android:text="@string/time_7_00a_m_e"
+                android:textColor="@color/text_hint"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -263,6 +268,7 @@
                 android:layout_marginBottom="28dp"
                 android:fontFamily="@font/raleway"
                 android:text="@string/intervas_of_8_hours_e"
+                android:textColor="@color/text_hint"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -275,6 +281,7 @@
                 android:layout_marginBottom="68dp"
                 android:fontFamily="@font/raleway"
                 android:text="@string/dosaje_20mg_e"
+                android:textColor="@color/text_hint"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
@@ -303,7 +310,6 @@
                 app:srcCompat="@drawable/e_up_back_arrow" />
 
 
-
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <Button
@@ -314,12 +320,13 @@
             android:layout_marginEnd="30dp"
             android:layout_marginBottom="30dp"
             android:height="60dp"
+            android:background="@color/bluish"
             android:backgroundTint="@color/button_blue_e"
             android:drawableLeft="@drawable/plus"
             android:drawablePadding="25dp"
             android:onClick="openFile"
             android:text="More Medicine"
-            android:textColor="#000000"
+            android:textColor="@color/white"
             app:cornerRadius="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
