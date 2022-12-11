@@ -34,13 +34,15 @@ public class Pacientes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pacientes);
 
+
         recyclerView = findViewById((R.id.recycleV_patients));
         databaseReference = FirebaseDatabase.getInstance().getReference("Enfermeras");
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
         list = new ArrayList<>();
         Log.d("LIST", list.toString());
         Log.d("REFERENCE", databaseReference.toString());
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setHasFixedSize(true);
 
         patientAdapter = new PatientAdapter(this, list);
 
@@ -51,7 +53,9 @@ public class Pacientes extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()){
                     //Log.d("SNAP", snapshot.getValue((Paci)));
-                    Paciente_Recycle paciente = dataSnapshot.getValue(Paciente_Recycle.class);
+                    Paciente_Recycle paciente = dataSnapshot.getValue(Paciente_Recycle.class
+                    list.add(paciente);
+
                 }
                 patientAdapter.setPatientList(list);
             }
@@ -61,6 +65,7 @@ public class Pacientes extends AppCompatActivity {
 
             }
         });
+
 
 
 
