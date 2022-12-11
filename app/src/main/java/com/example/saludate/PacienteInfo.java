@@ -24,6 +24,11 @@ public class PacienteInfo extends AppCompatActivity {
     TextView pName, pAge, pTemp, pPressure, pHC, pGlucose, pBed;
     DatabaseReference dRef;
     String nameAux, LNAux, LN2Aux;
+
+    private String sendTo;
+    public static final String EXTRA_MESSAGE_2 =
+            "com.example.android.Intent.extra.MESSAGE";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +36,8 @@ public class PacienteInfo extends AppCompatActivity {
 
         Intent respond = getIntent();
         String id = respond.getStringExtra(Pacientes.EXTRA_MESSAGE);
+
+
 
         TextView temp = findViewById(R.id.txt_patient_name);
 
@@ -65,6 +72,7 @@ public class PacienteInfo extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent individual = new Intent(v.getContext(), Notes.class);
+                individual.putExtra(EXTRA_MESSAGE_2, id);
                 startActivity(individual);
             }
         });
