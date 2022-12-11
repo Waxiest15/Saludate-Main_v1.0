@@ -7,8 +7,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 public class Welcome extends AppCompatActivity {
-    Button loginbtn,signbtn;;
+    Button loginbtn,signbtn;
     Intent intent, intent2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
