@@ -110,6 +110,7 @@
             android:layout_marginTop="268dp"
             android:background="@android:color/transparent"
             android:fontFamily="@font/raleway_bold"
+            android:onClick="LogOut"
             android:text="@string/log_outh"
             android:textColor="@android:color/holo_red_dark"
             app:layout_constraintEnd_toEndOf="parent"
