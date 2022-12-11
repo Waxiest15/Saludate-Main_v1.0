@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageButton;
 
 import com.example.saludate.databinding.ActivityMainBinding;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -46,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-        Button btn = findViewById(R.id.btn_patient_001_fragment);
+        Button btn = findViewById(R.id.btn_toPatient);
         btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent individual = new Intent(v.getContext(), PacienteInfo.class);
