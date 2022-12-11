@@ -4,28 +4,21 @@ import com.google.firebase.database.IgnoreExtraProperties;
 
 @IgnoreExtraProperties
 public class Paciente_Recycle {
-
-
-
-    private String cel;
-
-    private String name, last, last2, age, bed;
-
-    
+    private String name;
 
     public Paciente_Recycle() {
 
     }
 
-    public Paciente_Recycle(String cel) {
-        this.cel = cel;
+    public Paciente_Recycle(String name) {
+        this.name = name;
     }
 
-    public void setCel(String cel) {
-        this.cel = cel;
+    public String getName() {
+        return name;
     }
 
-    public String getCel() {
-        return cel;
+    public void setName(String name) {
+        this.name = name;
     }
 }
