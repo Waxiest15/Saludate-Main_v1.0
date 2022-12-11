@@ -29,6 +29,13 @@ public class PacienteInfo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_paciente_info);
 
+        Intent respond = getIntent();
+        String id = respond.getStringExtra(Pacientes.EXTRA_MESSAGE);
+
+        TextView temp = findViewById(R.id.txt_patient_name);
+
+        temp.setText(id);
+
         pName=findViewById(R.id.txt_patient_name);
         pAge=findViewById(R.id.txt_patientAge);
         pTemp=findViewById(R.id.txt_patientTemp);
@@ -70,7 +77,7 @@ public class PacienteInfo extends AppCompatActivity {
             }
         });
 
-        DatabaseReference readRef = FirebaseDatabase.getInstance().getReference().child("Enfermeras").child("enf_1").child("patients").child("0");
+        DatabaseReference readRef = FirebaseDatabase.getInstance().getReference().child("Enfermeras").child("enf_1").child("patients").child(id);
         Log.d("Conexion: ", readRef.toString());
         readRef.addListenerForSingleValueEvent(new ValueEventListener() {
 
@@ -80,15 +87,13 @@ public class PacienteInfo extends AppCompatActivity {
                     //llenamos los valores de los campos en la interfaz con los valores retornados
 
 
-                    nameAux=dataSnapshot.child("name").child("name").getValue().toString();
-                    LNAux=dataSnapshot.child("name").child("last1").getValue().toString();
-                    LN2Aux=dataSnapshot.child("name").child("last2").getValue().toString();
+                    pName.setText(dataSnapshot.child("name").getValue().toString());
 
-                    pName.setText(nameAux + " " + LNAux + " " + LN2Aux);
-
-                    pAge.setText("Age\n29");
-                    pBed.setText("Bed\n"+dataSnapshot.child("bed").getValue().toString());
-                    pGlucose.setText("80");
+                    pAge.setText(dataSnapshot.child("age").getValue().toString()+"\nAge");
+                    pBed.setText(dataSnapshot.child("bed").getValue().toString()+"\nBed");
+                    pGlucose.setText(dataSnapshot.child("vital-signs").child("0").child("sugar_b").child("0").child("value").getValue().toString()+"\nGlucose");
+                    pTemp.setText(dataSnapshot.child("vital-signs").child("0").child("temperature").child("0").child("value").getValue().toString()+"°\nGlucose");
+                    pPressure.setText(dataSnapshot.child("vital-signs").child("0").child("blood_presure").child("0").child("value").getValue().toString()+"\nPressure");
                     pHC.setText("Health\nCondition\nOk")   ;
                 } else {
                     Toast.makeText(getApplicationContext(), "no data to display", Toast.LENGTH_SHORT).show();
