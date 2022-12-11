@@ -8,10 +8,10 @@ public class Paciente_Recycle {
 
 
     private String cel;
-
     private String name, last, last2, age, bed;
 
     
+
 
     public Paciente_Recycle() {
 

@@ -24,7 +24,7 @@
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/activity_otp_verification.xml" value="0.22" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/activity_oxygenation.xml" value="0.20416666666666666" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/activity_paciente_info.xml" value="0.25" />
-        <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/activity_pacientes.xml" value="0.48157248157248156" />
+        <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/activity_pacientes.xml" value="0.25" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/activity_password_changed.xml" value="0.22" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/activity_register_e.xml" value="0.20416666666666666" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/activity_register_type.xml" value="0.20416666666666666" />
@@ -45,6 +45,8 @@
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/fragment_pri_sec.xml" value="0.20416666666666666" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/nav_header_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/pacientes_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/recycle_patients.xml" value="0.203125" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ornel/AndroidStudioProjects/sis/SaluDate/SaluDate/app/src/main/res/drawable/custom_button.xml" value="0.205" />

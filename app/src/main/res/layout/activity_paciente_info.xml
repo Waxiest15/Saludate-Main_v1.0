@@ -295,7 +295,7 @@
                     tools:ignore="TextContrastCheck,TextContrastCheck" />
 
                 <TextView
-                    android:id="@+id/textView19"
+                    android:id="@+id/txt_patientAge"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
@@ -308,7 +308,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
                 <TextView
-                    android:id="@+id/textView25"
+                    android:id="@+id/txt_patientHC"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
@@ -320,11 +320,11 @@
                     android:textSize="24sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView19"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_patientAge"
                     app:layout_constraintVertical_bias="0.0" />
 
                 <TextView
-                    android:id="@+id/textView26"
+                    android:id="@+id/txt_PatientBed"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
@@ -336,11 +336,11 @@
                     android:textSize="24sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView20"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_patientPressure"
                     app:layout_constraintVertical_bias="0.714" />
 
                 <TextView
-                    android:id="@+id/textView20"
+                    android:id="@+id/txt_patientPressure"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
@@ -352,20 +352,20 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
                 <TextView
-                    android:id="@+id/textView24"
+                    android:id="@+id/txt_patientTemp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:text="@string/Temperature"
                     android:textColor="@color/text_hint"
                     android:textSize="24sp"
-                    app:layout_constraintEnd_toStartOf="@+id/textView20"
+                    app:layout_constraintEnd_toStartOf="@+id/txt_patientPressure"
                     app:layout_constraintHorizontal_bias="0.623"
-                    app:layout_constraintStart_toEndOf="@+id/textView19"
+                    app:layout_constraintStart_toEndOf="@+id/txt_patientAge"
                     app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
                 <TextView
-                    android:id="@+id/textView27"
+                    android:id="@+id/patient_Glucose"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="32dp"
@@ -374,10 +374,10 @@
                     android:textColor="@color/text_hint"
                     android:textSize="24sp"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/textView26"
+                    app:layout_constraintEnd_toStartOf="@+id/txt_PatientBed"
                     app:layout_constraintHorizontal_bias="0.359"
-                    app:layout_constraintStart_toEndOf="@+id/textView25"
-                    app:layout_constraintTop_toBottomOf="@+id/textView24"
+                    app:layout_constraintStart_toEndOf="@+id/txt_patientHC"
+                    app:layout_constraintTop_toBottomOf="@+id/txt_patientTemp"
                     app:layout_constraintVertical_bias="0.714" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
