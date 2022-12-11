@@ -101,7 +101,7 @@ public class MainActivity extends AppCompat {
             }
         });
 
-        setSupportActionBar(binding.appBarMain.toolbar);
+        //setSupportActionBar(binding.appBarMain.toolbar);
 
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
