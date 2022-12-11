@@ -2,27 +2,43 @@ package com.example.saludate;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.example.saludate.databinding.ActivityMainBinding;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
+import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
+
+    private String sendTo;
+    public static final String EXTRA_MESSAGE =
+            "com.example.android.Intent.extra.MESSAGE";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +46,61 @@ public class MainActivity extends AppCompatActivity {
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        RecyclerView recyclerView;
+        ArrayList<Paciente_Recycle> list;
+        ArrayList<String> listKey = new ArrayList<>();
+        DatabaseReference databaseReference;
+        PatientAdapter patientAdapter;
+
+        
+
+        recyclerView = findViewById((R.id.recycleV_patients));
+        databaseReference = FirebaseDatabase.getInstance().getReference("Enfermeras").child("enf_1").child("patients");
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        list = new ArrayList<>();
+        Log.d("LIST", list.toString());
+        Log.d("REFERENCE", databaseReference.toString());
+
+        patientAdapter = new PatientAdapter(this, list);
+        recyclerView.setAdapter(patientAdapter);
+
+
+
+        databaseReference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                for (DataSnapshot dataSnapshot : snapshot.getChildren()){
+                    Log.d("PADRE", dataSnapshot.getKey().toString());
+                    sendTo=dataSnapshot.getKey().toString();
+                    Paciente_Recycle paciente = dataSnapshot.getValue(Paciente_Recycle.class);
+                    list.add(paciente);
+                    listKey.add(sendTo);
+                }
+                patientAdapter.setPatientList(list);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+
+        patientAdapter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_addPatient;
+                String id="1";
+                String msg = listKey.get(recyclerView.getChildAdapterPosition(v)).toString();
+                intent_addPatient = new Intent(v.getContext(), PacienteInfo.class);
+                intent_addPatient.putExtra(EXTRA_MESSAGE, msg);
+                startActivity(intent_addPatient);
+                Toast.makeText(getApplicationContext(), "XD: ", Toast.LENGTH_SHORT).show();
+            }
+        });
+
 
         setSupportActionBar(binding.appBarMain.toolbar);
 
@@ -46,13 +117,7 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-        Button btn = findViewById(R.id.btn_patient_001_fragment);
-        btn.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent individual = new Intent(v.getContext(), PacienteInfo.class);
-                startActivity(individual);
-            }
-        });
+
 
         
 
