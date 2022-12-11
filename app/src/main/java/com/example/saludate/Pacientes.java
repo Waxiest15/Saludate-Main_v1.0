@@ -21,7 +21,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class Pacientes extends AppCompatActivity {
+public class Pacientes extends AppCompat {
 
     private String sendTo;
     public static final String EXTRA_MESSAGE =

@@ -13,7 +13,7 @@
         android:background="@color/fondo"
         tools:ignore="SpeakableTextPresentCheck">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -25,7 +25,6 @@
                 android:background="@android:color/transparent"
                 android:minWidth="48dp"
                 android:minHeight="48dp"
-                android:onClick="onClick"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.933"
                 app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="@string/medicine_nameh"
+                    android:text="@string/medicine_name"
                     android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -63,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:text="@string/dosageh"
+                    android:text="@string/dosage"
                     android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_medicineNameh" />
@@ -74,7 +73,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:text="@string/timeh"
+                    android:text="@string/time"
                     android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_dosageh" />
@@ -85,7 +84,7 @@
                     android:layout_height="0dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:text="@string/intervalsh"
+                    android:text="@string/intervals_of"
                     android:textColor="@color/text_hint"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_timeh" />
@@ -96,7 +95,7 @@
                     android:layout_height="0dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:text="@string/viah"
+                    android:text="@string/via"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/editTxt_intervalsh" />
 
@@ -110,10 +109,10 @@
                     android:autofillHints=""
                     android:background="@drawable/rounded_inputh"
                     android:ems="10"
-                    android:inputType="textPersonName"
+                    android:hint="@string/penicilin"
+                    android:inputType="textShortMessage"
                     android:labelFor="@id/txt_medicineNameh"
                     android:padding="10dp"
-                    android:text="@string/penicillinh"
                     android:textColor="@color/black"
                     android:textColorHint="@color/text_hint"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -132,9 +131,9 @@
                     android:autofillHints=""
                     android:background="@drawable/rounded_inputh"
                     android:ems="10"
-                    android:inputType="text"
+                    android:hint="30 gr"
+                    android:inputType="textShortMessage"
                     android:padding="10dp"
-                    android:text="30 gr"
                     android:textColor="@color/black"
                     android:textColorHint="@color/text_hint"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -151,9 +150,9 @@
                     android:autofillHints=""
                     android:background="@drawable/rounded_inputh"
                     android:ems="10"
-                    android:inputType="number"
+                    android:hint="07:00 AM"
+                    android:inputType="time"
                     android:padding="10dp"
-                    android:text="07:00 AM"
                     android:textColor="@color/black"
                     android:textColorHint="@color/text_hint"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -171,9 +170,9 @@
                     android:autofillHints=""
                     android:background="@drawable/rounded_inputh"
                     android:ems="10"
-                    android:inputType="date"
+                    android:hint="30 min"
+                    android:inputType="textShortMessage"
                     android:padding="10dp"
-                    android:text="30 min"
                     android:textColor="@color/black"
                     android:textColorHint="@color/text_hint"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -191,9 +190,9 @@
                     android:autofillHints=""
                     android:background="@drawable/rounded_inputh"
                     android:ems="10"
-                    android:inputType="text"
+                    android:hint="IV"
+                    android:inputType="textShortMessage"
                     android:padding="10dp"
-                    android:text="@string/ivh"
                     android:textColor="@color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -201,6 +200,21 @@
                     app:layout_constraintTop_toBottomOf="@+id/txt_viah" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/idPBLoading"
+                    android:indeterminate="true"
+                    android:indeterminateDrawable="@drawable/progess_bar"
+                    android:visibility="gone"
+                    />
+            </RelativeLayout>
 
             <View
                 android:id="@+id/divider4"
@@ -212,6 +226,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
     </ScrollView>
 </FrameLayout>

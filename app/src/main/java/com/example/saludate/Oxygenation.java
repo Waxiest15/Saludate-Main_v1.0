@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Oxygenation extends AppCompatActivity {
+public class Oxygenation extends AppCompat {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

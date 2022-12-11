@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class OTP_Verification extends AppCompatActivity {
+public class OTP_Verification extends AppCompat {
     Intent intent;
     Button OTPbtn;
     @Override

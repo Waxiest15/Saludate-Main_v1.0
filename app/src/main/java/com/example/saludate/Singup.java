@@ -21,7 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Singup extends AppCompatActivity {
+public class Singup extends AppCompat {
     Intent intent;
     EditText nom, email, pass;
     Button btn;

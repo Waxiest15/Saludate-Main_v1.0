@@ -19,7 +19,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import org.w3c.dom.Text;
 
-public class PacienteInfo extends AppCompatActivity {
+public class PacienteInfo extends AppCompat {
 
     TextView pName, pAge, pTemp, pPressure, pHC, pGlucose, pBed;
     DatabaseReference dRef;
@@ -44,12 +44,12 @@ public class PacienteInfo extends AppCompatActivity {
         temp.setText(id);
 
         pName=findViewById(R.id.txt_patient_name);
-        pAge=findViewById(R.id.txt_patientAge);
-        pTemp=findViewById(R.id.txt_patientTemp);
-        pPressure=findViewById(R.id.txt_patientPressure);
-        pHC=findViewById(R.id.txt_patientHC);
-        pGlucose=findViewById(R.id.patient_Glucose);
-        pBed=findViewById(R.id.txt_PatientBed);
+        pAge=findViewById(R.id.textView19);
+        pTemp=findViewById(R.id.textView24);
+        pPressure=findViewById(R.id.textView20);
+        pHC=findViewById(R.id.textView25);
+        pGlucose=findViewById(R.id.textView27);
+        pBed=findViewById(R.id.textView26);
 
 
         Button btn = findViewById(R.id.btn_toMedicine);

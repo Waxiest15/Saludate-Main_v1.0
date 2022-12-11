@@ -15,15 +15,15 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_bellh"
-            android:title="@string/notification" />
+            android:title="@string/notifications" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_eyeh"
-            android:title="@string/night_mode" />
+            android:title="@string/dark_mode" />
         <item
             android:id="@+id/priSecFragment2"
             android:icon="@drawable/ic_menu_securityh"
-            android:title="@string/priSec" />
+            android:title="@string/terms_and_conditions" />
         <item
             android:id="@+id/languageFragment2"
             android:icon="@drawable/ic_menu_languageh"

@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class VitalSigns extends AppCompatActivity {
+public class VitalSigns extends AppCompat {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/raleway_bold"
             android:paddingBottom="10dp"
-            android:text="@string/full_nameh"
+            android:text="@string/full_name"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
@@ -93,7 +93,7 @@
             android:fontFamily="@font/raleway_bold"
             android:paddingTop="20dp"
             android:paddingBottom="10dp"
-            android:text="@string/phone_numberh"
+            android:text="@string/phone"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
@@ -134,7 +134,7 @@
             android:fontFamily="@font/raleway_bold"
             android:paddingTop="20dp"
             android:paddingBottom="10dp"
-            android:text="@string/birthdayh"
+            android:text="@string/email"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
@@ -148,23 +148,11 @@
                 android:layout_height="54dp"
                 android:background="@drawable/rounded_inputh"
                 android:ems="10"
-                android:hint="2008-01-31"
+                android:hint="mark.r@gmail.com"
                 android:inputType="date"
                 android:paddingStart="8dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/img_calendarsh"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_calendarsh"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.953"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.518" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

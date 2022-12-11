@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MedicalTest_e extends AppCompatActivity {
+public class MedicalTest_e extends AppCompat {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

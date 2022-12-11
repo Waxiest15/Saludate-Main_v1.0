@@ -43,25 +43,27 @@
 
             <EditText
                 android:id="@+id/editTxt_notesh"
-                android:layout_width="351dp"
-                android:layout_height="467dp"
+                android:layout_width="358dp"
+                android:layout_height="505dp"
                 android:layout_marginStart="24dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="120dp"
                 android:layout_marginEnd="24dp"
+                android:layout_marginBottom="24dp"
                 android:autofillHints=""
                 android:background="@drawable/rounded_rectange_e2"
                 android:ems="10"
                 android:gravity="top"
-                android:hint="Notes"
-                android:inputType="textMultiLine|textPersonName"
-                android:padding="15dp"
+                android:hint="@string/notes"
+                android:inputType="textLongMessage"
+                android:padding="5dp"
                 android:textAlignment="viewStart"
                 android:textColor="@color/black"
                 android:textColorHint="@color/white"
+                app:layout_constraintBottom_toTopOf="@+id/div3"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.4"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlCompat" />
 
             <Button
                 android:id="@+id/btn_updateNotes"
@@ -80,4 +82,17 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/idPBLoading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progess_bar"
+            android:visibility="gone" />
+    </RelativeLayout>
 </FrameLayout>

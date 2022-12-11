@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class AddTest_e extends AppCompatActivity {
+public class AddTest_e extends AppCompat {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

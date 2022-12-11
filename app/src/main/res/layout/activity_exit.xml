@@ -49,23 +49,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="109dp"
         android:fontFamily="@font/raleway_bold"
-        android:text="@string/rusureh"
+        android:text="@string/r_u_sure"
         android:textColor="@color/main_blue"
         android:textSize="32sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_doctorsh" />
 
-    <TextView
-        android:id="@+id/txt_qh"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
-        android:fontFamily="@font/raleway"
-        android:text="@string/quittingh"
-        android:textColor="@color/gray"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

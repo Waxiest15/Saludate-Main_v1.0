@@ -31,7 +31,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompat {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
@@ -100,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), "XD: ", Toast.LENGTH_SHORT).show();
             }
         });
-
 
         setSupportActionBar(binding.appBarMain.toolbar);
 

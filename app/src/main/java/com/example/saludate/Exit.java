@@ -8,7 +8,7 @@ import android.view.View;
 
 import com.example.saludate.ui.account.AccountFragment;
 
-public class Exit extends AppCompatActivity {
+public class Exit extends AppCompat {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
         android:fontFamily="@font/raleway_bold"
-        android:text="vital_signs"
+        android:text="@string/vital_signs"
         android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -79,7 +79,7 @@
                 android:layout_marginTop="21dp"
                 android:layout_marginEnd="273dp"
                 android:fontFamily="@font/raleway_bold"
-                android:text="breathing frecuency"
+                android:text="@string/breathing_frecuency"
                 android:textSize="28sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -131,7 +131,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="14dp"
                 android:fontFamily="@font/raleway_bold"
-                android:text="time"
+                android:text="@string/time"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -150,7 +150,7 @@
                 android:ems="10"
                 android:inputType="time"
                 android:padding="10dp"
-                android:text="value"
+                android:hint="@string/value"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
                 android:textColor="@color/black" />
@@ -172,7 +172,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="14dp"
                 android:fontFamily="@font/raleway_bold"
-                android:text="value"
+                android:text="@string/value"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -191,7 +191,7 @@
                 android:ems="10"
                 android:inputType="time"
                 android:padding="10dp"
-                android:text="0"
+                android:hint="0"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
                 android:textColor="@color/black" />
@@ -214,7 +214,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginBottom="50dp"
                 android:backgroundTint="@color/azul_base"
-                android:text="add"
+                android:text="@string/add"
                 android:textColor="#FFFFFF"
                 app:cornerRadius="7dp"
                 tools:ignore="TextContrastCheck" />
@@ -226,7 +226,7 @@
                 android:layout_marginStart="20dp"
                 android:fontFamily="@font/raleway_bold"
                 android:minHeight="48dp"
-                android:text="set alarm in intervals of"
+                android:text="@string/set_alarm"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:theme="@style/Theme.Switch" />
@@ -245,7 +245,7 @@
                 android:ems="10"
                 android:inputType="time"
                 android:padding="10dp"
-                android:text="0"
+                android:hint="0"
                 android:textAlignment="textStart"
                 android:textAllCaps="false"
                 android:textColor="@color/black" />

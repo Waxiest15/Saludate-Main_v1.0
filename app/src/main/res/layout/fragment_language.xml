@@ -18,7 +18,7 @@
         android:paddingStart="20dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:text="@string/englishh"
+        android:text="English"
         android:textAlignment="textStart"
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -41,9 +41,9 @@
         android:paddingStart="20dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:text="@string/add_lenguageh"
+        android:text="Spanish (México)"
         android:textAlignment="textStart"
-        android:textColor="@color/gray"
+        android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,16 +51,94 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_languageh" />
 
+    <TextView
+        android:id="@+id/txt_language3h"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_rectangleh"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="French (France)"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_language2h" />
+
+    <TextView
+        android:id="@+id/txt_language4h"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_rectangleh"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Korean (South Korea)"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_language3h" />
+
     <ImageButton
-        android:id="@+id/btn_addLanguageh"
+        android:id="@+id/btn_selectSpanishh"
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginEnd="28dp"
         android:background="@android:color/transparent"
-        android:src="@drawable/ic_menu_plush"
+        android:src="@drawable/ic_checklist"
         app:layout_constraintBottom_toBottomOf="@+id/txt_language2h"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/txt_language2h"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_selectEnglishh"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_checklist"
+        app:layout_constraintBottom_toBottomOf="@+id/text_languageh"
+        app:layout_constraintEnd_toEndOf="@+id/text_languageh"
+        app:layout_constraintTop_toTopOf="@+id/text_languageh"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_selectFrenchh"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_checklist"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_language3h"
+        app:layout_constraintEnd_toEndOf="@+id/txt_language3h"
+        app:layout_constraintTop_toTopOf="@+id/txt_language3h"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btn_selectKoreanh"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_checklist"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_language4h"
+        app:layout_constraintEnd_toEndOf="@+id/txt_language4h"
+        app:layout_constraintTop_toTopOf="@+id/txt_language4h"
         tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

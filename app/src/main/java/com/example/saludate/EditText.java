@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class EditText extends AppCompatActivity {
+public class EditText extends AppCompat {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

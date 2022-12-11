@@ -22,7 +22,7 @@
         android:ems="10"
         android:inputType="text"
         android:padding="10dp"
-        android:text="@string/enter_search_text_e"
+        android:text="@string/enter_search"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textColor="@color/border_gray"
@@ -53,7 +53,7 @@
             android:layout_marginEnd="42dp"
             android:layout_marginBottom="65dp"
             android:fontFamily="@font/raleway_semibold"
-            android:text="@string/medicine_e"
+            android:text="@string/medicine"
             android:textColor="#000000"
             android:textSize="48sp"
             android:textStyle="bold"
@@ -84,7 +84,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
-        android:contentDescription="@string/back"
+        android:contentDescription="Back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
@@ -241,7 +241,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/raleway"
-                android:text="@string/via_oral_e"
+                android:text="Via: Oral"
                 android:textColor="@color/text_hint"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -254,7 +254,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginBottom="48dp"
                 android:fontFamily="@font/raleway"
-                android:text="@string/time_7_00a_m_e"
+                android:text="Time: 7:00AM"
                 android:textColor="@color/text_hint"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -267,7 +267,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginBottom="28dp"
                 android:fontFamily="@font/raleway"
-                android:text="@string/intervas_of_8_hours_e"
+                android:text="Intervas of: 8 Hours"
                 android:textColor="@color/text_hint"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -280,7 +280,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginBottom="68dp"
                 android:fontFamily="@font/raleway"
-                android:text="@string/dosaje_20mg_e"
+                android:text="Dosage: 20mg"
                 android:textColor="@color/text_hint"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -325,7 +325,7 @@
             android:drawableLeft="@drawable/plus"
             android:drawablePadding="25dp"
             android:onClick="openFile"
-            android:text="More Medicine"
+            android:text="@string/more_medicine"
             android:textColor="@color/white"
             app:cornerRadius="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -333,6 +333,5 @@
             app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

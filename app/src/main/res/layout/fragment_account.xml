@@ -31,7 +31,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.234"
-            tools:text="@string/name_exampleh" />
+            tools:text="@string/mark_ramos" />
 
         <View
             android:id="@+id/dividerh"
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="40dp"
-            android:text="03-07-2021"
+            android:text="mark.r@gmail.com"
             android:textColor="@color/text_hint"
             android:textSize="20sp"
             app:layout_constraintStart_toEndOf="@+id/img_calendarh"
@@ -111,7 +111,7 @@
             android:background="@android:color/transparent"
             android:fontFamily="@font/raleway_bold"
             android:onClick="LogOut"
-            android:text="@string/log_outh"
+            android:text="@string/log_out"
             android:textColor="@android:color/holo_red_dark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class HeartRate extends AppCompatActivity {
+public class HeartRate extends AppCompat {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

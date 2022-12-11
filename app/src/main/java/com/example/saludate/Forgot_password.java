@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Forgot_password extends AppCompatActivity {
+public class Forgot_password extends AppCompat {
     Intent intent, intent2;
     Button codebtn;
     @Override

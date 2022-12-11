@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class Welcome extends AppCompatActivity {
+public class Welcome extends AppCompat {
     Button loginbtn,signbtn;
     Intent intent, intent2;
     @Override

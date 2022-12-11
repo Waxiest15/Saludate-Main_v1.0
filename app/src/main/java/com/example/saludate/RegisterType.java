@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-public class RegisterType extends AppCompatActivity {
+public class RegisterType extends AppCompat {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

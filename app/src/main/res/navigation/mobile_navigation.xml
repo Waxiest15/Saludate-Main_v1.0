@@ -8,33 +8,33 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.saludate.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.saludate.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/notifications"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.saludate.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/dark_mode"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/languageFragment2"
         android:name="com.example.saludate.ui.language.LanguageFragment"
-        android:label="@string/menu_language"
+        android:label="@string/language"
         tools:layout="@layout/fragment_language" />
     <fragment
         android:id="@+id/priSecFragment2"
         android:name="com.example.saludate.ui.prisec.PriSecFragment"
-        android:label="@string/priSec"
+        android:label="@string/terms_and_conditions"
         tools:layout="@layout/fragment_pri_sec" />
     <fragment
         android:id="@+id/accountFragment"
         android:name="com.example.saludate.ui.account.AccountFragment"
-        android:label="@string/accounth"
+        android:label="@string/account"
         tools:layout="@layout/fragment_account" />
 </navigation>

@@ -9,7 +9,7 @@ import android.provider.DocumentsContract;
 import android.view.View;
 import android.widget.Button;
 
-public class Medicine_e extends AppCompatActivity {
+public class Medicine_e extends AppCompat {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

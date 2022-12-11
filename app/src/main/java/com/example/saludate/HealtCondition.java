@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class HealtCondition extends AppCompatActivity {
+public class HealtCondition extends AppCompat {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

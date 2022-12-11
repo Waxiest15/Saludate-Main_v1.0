@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class PasswordChanged extends AppCompatActivity {
+public class PasswordChanged extends AppCompat {
     Intent intent;
     Button backlgn;
     @Override

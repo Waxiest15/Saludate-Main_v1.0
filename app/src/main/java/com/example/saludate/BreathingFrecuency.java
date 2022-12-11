@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class BreathingFrecuency extends AppCompatActivity {
+public class BreathingFrecuency extends AppCompat {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
