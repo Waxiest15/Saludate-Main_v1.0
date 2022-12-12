@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -24,6 +25,8 @@ import java.util.ArrayList;
 public class Pacientes extends AppCompat {
 
     private String sendTo;
+    FirebaseAuth firebaseAuth;
+    String M_ID;
     public static final String EXTRA_MESSAGE =
             "com.example.android.Intent.extra.MESSAGE";
 
@@ -35,12 +38,14 @@ public class Pacientes extends AppCompat {
         ArrayList<String> listKey = new ArrayList<>();
         DatabaseReference databaseReference;
         PatientAdapter patientAdapter;
+        firebaseAuth = FirebaseAuth.getInstance();
+        M_ID = firebaseAuth.getCurrentUser().getUid();
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pacientes);
 
         recyclerView = findViewById((R.id.recycleV_patients));
-        databaseReference = FirebaseDatabase.getInstance().getReference("Enfermeras").child("enf_1").child("patients");
+        databaseReference = FirebaseDatabase.getInstance().getReference("Enfermeras").child(M_ID).child("patients");
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 

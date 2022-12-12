@@ -16,7 +16,7 @@
         <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_language.xml" value="0.17074275362318841" />
         <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_manual_register.xml" value="0.1" />
+        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_manual_register.xml" value="0.14666666666666667" />
         <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_medical_test_e.xml" value="0.1" />
         <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_medicine_e.xml" value="0.1" />
         <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_medicine_register.xml" value="0.1" />
@@ -88,7 +88,6 @@
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/fragment_pri_sec.xml" value="0.20416666666666666" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
-        <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/medicine_card.xml" value="0.33" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/nav_header_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/pacientes_card.xml" value="0.5" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />

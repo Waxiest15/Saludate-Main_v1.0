@@ -15,6 +15,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -27,12 +28,15 @@ public class Medicine_e extends AppCompat {
 
     public static final String EXTRA_MESSAGE_3 =
             "com.example.android.Intent.extra.MESSAGE";
+    FirebaseAuth firebaseAuth;
+    String M_ID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         TextView temp = findViewById(R.id.txt_medicineHeader);
-
+        firebaseAuth = FirebaseAuth.getInstance();
+        M_ID = firebaseAuth.getCurrentUser().getUid();
 
 
         RecyclerView recyclerView;
@@ -50,7 +54,7 @@ public class Medicine_e extends AppCompat {
         setContentView(R.layout.activity_medicine_e);
 
         recyclerView = findViewById((R.id.recycleMedicine));
-        databaseReference = FirebaseDatabase.getInstance().getReference("Enfermeras").child("enf_1").child("patients").child(id).child("medice");
+        databaseReference = FirebaseDatabase.getInstance().getReference("Enfermeras").child(M_ID).child("patients").child(id).child("medice");
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 

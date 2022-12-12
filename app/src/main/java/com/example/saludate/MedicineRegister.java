@@ -13,11 +13,14 @@ import android.widget.Toast;
 import android.widget.EditText;
 
 import com.example.saludate.ui.account.AccountFragment;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class MedicineRegister extends AppCompatActivity {
+public class MedicineRegister extends AppCompat {
     EditText name, dosis, via, hora, intervalos;
+    FirebaseAuth firebaseAuth;
+    String M_ID;
 
     Medicine_Object newMedicine = new Medicine_Object();
 
@@ -28,6 +31,8 @@ public class MedicineRegister extends AppCompatActivity {
 
         Intent respond = getIntent();
         String id = respond.getStringExtra(Medicine_e.EXTRA_MESSAGE_3);
+        firebaseAuth = FirebaseAuth.getInstance();
+        M_ID = firebaseAuth.getCurrentUser().getUid();
 
         Toast.makeText(this, "<"+id+">", Toast.LENGTH_SHORT).show();
 
@@ -42,7 +47,7 @@ public class MedicineRegister extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Asigan el nodo Employee para poner nodos dentro de el
-                DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("Enfermeras/enf_1/patients/"+id+"/medice");
+                DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("Enfermeras/"+M_ID+"/patients/"+id+"/medice");
                 try {
                     //condiciones para asegurarse que los campos requeridos tienen informacion
                     if (TextUtils.isEmpty(name.getText().toString()))
@@ -74,8 +79,4 @@ public class MedicineRegister extends AppCompatActivity {
             }
         });
     }
-
-
-
-
 }

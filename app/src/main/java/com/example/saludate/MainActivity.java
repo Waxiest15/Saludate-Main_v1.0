@@ -1,6 +1,7 @@
 package com.example.saludate;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -20,6 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
@@ -52,7 +54,7 @@ public class MainActivity extends AppCompat {
         ArrayList<String> listKey = new ArrayList<>();
         DatabaseReference databaseReference;
         PatientAdapter patientAdapter;
-
+        setDayNight();
         
 
         recyclerView = findViewById((R.id.recycleV_patients));
@@ -101,7 +103,7 @@ public class MainActivity extends AppCompat {
             }
         });
 
-        //setSupportActionBar(binding.appBarMain.toolbar);
+        setSupportActionBar(binding.appBarMain.toolbar);
 
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
@@ -129,6 +131,16 @@ public class MainActivity extends AppCompat {
         });
     }
 
+    public void setDayNight(){
+        SharedPreferences sp = getSharedPreferences("SP",this.MODE_PRIVATE);
+        int theme = sp.getInt("Theme",1);
+        if (theme ==0){
+            getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        }
+        else{
+            getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        }
+    }
 
 
     @Override

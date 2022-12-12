@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
@@ -21,50 +22,72 @@ import com.google.firebase.database.ValueEventListener;
 
 public class Notes extends AppCompat {
     private EditText notes;
-    private ImageButton saveBtn;
-    private ProgressBar loadingPB;
     FirebaseAuth firebaseAuth;
     private FirebaseDatabase firebaseDatabase;
     private DatabaseReference databaseReference;
-    private String M_ID;
+    String M_ID;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notes);
-        notes = findViewById(R.id.editTxt_notesh);
-        saveBtn = findViewById(R.id.btn_correcth);
-        loadingPB = findViewById(R.id.idPBLoading);
-        firebaseDatabase = FirebaseDatabase.getInstance();
-        firebaseAuth = FirebaseAuth.getInstance();
-        databaseReference = firebaseDatabase.getReference("Enfermeras");
 
-        saveBtn.setOnClickListener(new View.OnClickListener() {
+        notes=findViewById(R.id.editTxt_notesh);
+
+        Intent respond = getIntent();
+        String id = respond.getStringExtra(PacienteInfo.EXTRA_MESSAGE_2);
+        firebaseAuth = FirebaseAuth.getInstance();
+        M_ID = firebaseAuth.getCurrentUser().getUid();
+
+        DatabaseReference readRef = FirebaseDatabase.getInstance().getReference().child("Enfermeras").child(M_ID).child("patients").child(id);
+        readRef.addListenerForSingleValueEvent(new ValueEventListener() {
+
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                if (dataSnapshot.hasChildren()) {
+                    //llenamos los valores de los campos en la interfaz con los valores retornados
+                    notes.setText(dataSnapshot.child("Notas").getValue().toString());
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+
+        Button btnUpdate = findViewById(R.id.btn_updateNotes);
+        btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadingPB.setVisibility(View.VISIBLE);
-                String note = notes.getText().toString();
-                M_ID = firebaseAuth.getCurrentUser().getUid();;
-
-                NotesModel notesModel = new NotesModel(note);
-                databaseReference.addValueEventListener(new ValueEventListener() {
+                DatabaseReference readRef = FirebaseDatabase.getInstance().getReference().child("Enfermeras").child(M_ID).child("patients");
+                readRef.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
-                    public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        loadingPB.setVisibility(View.GONE);
-                        databaseReference.child(M_ID).child("patients").child("Notas").setValue(notesModel);
-                        Toast.makeText(Notes.this, "Note Added...", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(Notes.this, PacienteInfo.class));
+                    public void onDataChange (@NonNull DataSnapshot dataSnapshot){
+                        if (dataSnapshot.hasChild(id)) {
+
+                            DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("Enfermeras").child(M_ID).child("patients").child(id).child("Notas");
+                            dbRef.setValue(notes.getText().toString());
+
+                            Toast.makeText(getApplicationContext(), "Data updated", Toast.LENGTH_SHORT).show();
+                        } else {
+                            Toast.makeText(getApplicationContext(), "no data to display", Toast.LENGTH_SHORT).show();
+                        }
                     }
 
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
-                        Toast.makeText(Notes.this, "Error is"+error.toString(), Toast.LENGTH_SHORT).show();
+
                     }
-                });
+                });//no tocar
             }
         });
+
+
+
+
     }
     public void onClick(View view){
-
+        finish();
     }
 }
