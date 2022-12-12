@@ -100,6 +100,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="tiempo"
+            android:textColor="@color/text_hint"
             app:layout_constraintBaseline_toBaselineOf="@+id/textView29"
             app:layout_constraintStart_toEndOf="@+id/textView29" />
 
@@ -109,6 +110,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="intervalos"
+            android:textColor="@color/text_hint"
             app:layout_constraintBaseline_toBaselineOf="@+id/textView31"
             app:layout_constraintStart_toEndOf="@+id/textView31" />
 
@@ -118,6 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="Oral"
+            android:textColor="@color/text_hint"
             app:layout_constraintBaseline_toBaselineOf="@+id/textView30"
             app:layout_constraintStart_toEndOf="@+id/textView30" />
 

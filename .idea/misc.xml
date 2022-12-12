@@ -3,51 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_add_test_e.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_blood_preasure.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_breathing_frecuency.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_edit_text.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_edit_text2.xml" value="0.16101694915254236" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_edit_user_profile.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_exit.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_forgot_password.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_healt_condition.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_heart_rate.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_language.xml" value="0.17074275362318841" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_login.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_manual_register.xml" value="0.14666666666666667" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_medical_test_e.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_medicine_e.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_medicine_register.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_notes.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_otp_verification.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_oxygenation.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_paciente_info.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_pacientes.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_password_changed.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_register_e.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_register_type.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_signup.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_sugar_blood.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_temperature.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_vital_signs.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/activity_welcome.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/content_main.xml" value="0.17074275362318841" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/fragment_account.xml" value="0.4466666666666667" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/fragment_edit_user.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/fragment_language.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/fragment_no_connection.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/fragment_pri_sec.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/fragment_slideshow.xml" value="0.3333333333333333" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/medicine_card.xml" value="0.17552083333333332" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/layout/pacientes_card.xml" value="0.1" />
-        <entry key="..\:/Android Studio/SaluDateFinal/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
         <entry key="..\:/ProyectosAndroidv2/SaluDate/app/src/main/res/layout/content_main.xml" value="0.1" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/activity_add_test_e.xml" value="0.25" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/activity_blood_preasure.xml" value="0.25" />
@@ -89,6 +44,8 @@
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/fragment_pri_sec.xml" value="0.20416666666666666" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
+        <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/medicaltest_card.xml" value="0.5" />
+        <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/medicine_card.xml" value="0.33" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/nav_header_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/layout/pacientes_card.xml" value="0.5" />
         <entry key="..\:/Proyectos_Android/SaluDate-main/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
