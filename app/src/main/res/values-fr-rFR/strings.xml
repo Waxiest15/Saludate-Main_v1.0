@@ -119,4 +119,6 @@ SaluDate n\'est pas responsable de la mauvaise utilisation des contenus, produit
     <string name="account">Compte</string>
     <string name="dark_mode">Mode foncé</string>
     <string name="language">Langue</string>
+    <string name="takes_the_patient">Prend la température du patient au lit 10</string>
+    <string name="your_turn_has_ended">Votre tour est terminé.</string>
 </resources>

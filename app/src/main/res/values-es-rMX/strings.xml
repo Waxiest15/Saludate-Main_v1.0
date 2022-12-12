@@ -119,4 +119,6 @@ SaluDate no se responsabiliza por la indebida utilización del contenido, produc
     <string name="account">Cuenta</string>
     <string name="dark_mode">Modo Oscuro</string>
     <string name="language">Idioma</string>
+    <string name="takes_the_patient">Toma la temperatura de la cama 10</string>
+    <string name="your_turn_has_ended">Tu turno termino.</string>
 </resources>

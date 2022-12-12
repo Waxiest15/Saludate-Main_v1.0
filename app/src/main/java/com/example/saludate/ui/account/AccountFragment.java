@@ -13,8 +13,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.example.saludate.EditUserProfile;
 import com.example.saludate.MainActivity;
 import com.example.saludate.R;
 import com.example.saludate.Welcome;
@@ -40,6 +42,17 @@ public class AccountFragment extends Fragment {
 
         final TextView textView = binding.textAccount;
         accountViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        Button btnUpdate = (Button) root.findViewById(R.id.btn_logouth);
+        ImageButton btnEdit = root.findViewById(R.id.btn_correct1h_f);
+        btnUpdate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                firebaseAuth.signOut();
+                Intent intent = new Intent(getActivity(), Welcome.class);
+                startActivity(intent);
+            }
+        });
+
         return root;
     }
 

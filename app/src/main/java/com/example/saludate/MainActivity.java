@@ -14,6 +14,7 @@ import android.widget.Toast;
 import com.example.saludate.databinding.ActivityMainBinding;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompat {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
+    FirebaseAuth firebaseAuth;
+    String M_ID;
 
     private String sendTo;
     public static final String EXTRA_MESSAGE =
@@ -55,10 +58,12 @@ public class MainActivity extends AppCompat {
         DatabaseReference databaseReference;
         PatientAdapter patientAdapter;
         setDayNight();
+        firebaseAuth = FirebaseAuth.getInstance();
+        M_ID = firebaseAuth.getCurrentUser().getUid();
         
 
         recyclerView = findViewById((R.id.recycleV_patients));
-        databaseReference = FirebaseDatabase.getInstance().getReference("Enfermeras").child("enf_1").child("patients");
+        databaseReference = FirebaseDatabase.getInstance().getReference("Enfermeras").child(M_ID).child("patients");
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
@@ -99,7 +104,6 @@ public class MainActivity extends AppCompat {
                 intent_addPatient = new Intent(v.getContext(), PacienteInfo.class);
                 intent_addPatient.putExtra(EXTRA_MESSAGE, msg);
                 startActivity(intent_addPatient);
-                Toast.makeText(getApplicationContext(), "XD: ", Toast.LENGTH_SHORT).show();
             }
         });
 

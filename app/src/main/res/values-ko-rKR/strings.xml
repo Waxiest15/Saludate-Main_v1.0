@@ -117,4 +117,6 @@
     <string name="account">계좌</string>
     <string name="dark_mode">다크 모드입니다</string>
     <string name="language">언어</string>
+    <string name="takes_the_patient">침대 10에서 환자의 체온을 측정합니다</string>
+    <string name="your_turn_has_ended">당신 차례는 끝났어요.</string>
 </resources>

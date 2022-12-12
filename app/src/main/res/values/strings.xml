@@ -116,4 +116,6 @@
     <string name="account">Account</string>
     <string name="dark_mode">Dark Mode</string>
     <string name="language">Language</string>
+    <string name="takes_the_patient">Takes the patient\'s temperature in bed 10</string>
+    <string name="your_turn_has_ended">Your turn has ended.</string>
 </resources>

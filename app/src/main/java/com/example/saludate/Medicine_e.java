@@ -48,8 +48,6 @@ public class Medicine_e extends AppCompat {
         Intent respond = getIntent();
         String id = respond.getStringExtra(PacienteInfo.EXTRA_MESSAGE_2);
 
-        Toast.makeText(this, "?:" + id, Toast.LENGTH_SHORT).show();
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medicine_e);
 
