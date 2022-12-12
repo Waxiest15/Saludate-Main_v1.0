@@ -56,6 +56,7 @@ public class PacienteInfo extends AppCompat {
         btn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent individual = new Intent(v.getContext(), Medicine_e.class);
+                individual.putExtra(EXTRA_MESSAGE_2, id);
                 startActivity(individual);
             }
         });

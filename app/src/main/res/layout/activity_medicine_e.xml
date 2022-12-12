@@ -22,7 +22,7 @@
         android:ems="10"
         android:inputType="text"
         android:padding="10dp"
-        android:text="@string/enter_search"
+        android:text="@string/enter_search_text_e"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         android:textColor="@color/border_gray"
@@ -45,7 +45,7 @@
 
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/txt_medicineHeader"
             android:layout_width="208dp"
             android:layout_height="61dp"
             android:layout_marginStart="16dp"
@@ -53,7 +53,7 @@
             android:layout_marginEnd="42dp"
             android:layout_marginBottom="65dp"
             android:fontFamily="@font/raleway_semibold"
-            android:text="@string/medicine"
+            android:text="@string/medicine_e"
             android:textColor="#000000"
             android:textSize="48sp"
             android:textStyle="bold"
@@ -84,7 +84,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
-        android:contentDescription="Back"
+        android:contentDescription="@string/back"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back" />
@@ -105,67 +105,7 @@
         app:layout_constraintVertical_bias="1.0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/constraintLayout7"
-            android:layout_width="377dp"
-            android:layout_height="101dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="132dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/rounded_rectangle_e"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.533"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
-
-            <Switch
-                android:id="@+id/switch1"
-                android:layout_width="293dp"
-                android:layout_height="57dp"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="4dp"
-                android:layout_marginEnd="15dp"
-
-                android:drawablePadding="20dp"
-                android:fontFamily="@font/roboto"
-                android:minHeight="48dp"
-                android:padding="10dp"
-                android:text="Ramipril"
-                android:textColor="@color/letters"
-                android:textSize="28sp"
-                android:textStyle="bold"
-                android:theme="@style/Theme.Switch"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.143"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginBottom="24dp"
-                android:fontFamily="@font/raleway"
-                android:text="10mg"
-                android:textColor="@color/text_hint"
-                android:textSize="24sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <ImageView
-                android:id="@+id/imageView9"
-                android:layout_width="35dp"
-                android:layout_height="31dp"
-                android:layout_marginTop="27dp"
-                android:layout_marginEnd="30dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/e_down_arrow" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout10"
             android:layout_width="377dp"
             android:layout_height="101dp"
             android:layout_marginStart="16dp"
@@ -222,96 +162,6 @@
                 app:srcCompat="@drawable/e_down_arrow" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="372dp"
-            android:layout_height="133dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:background="@drawable/rounded_rectangle_e"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/constraintLayout7"
-            app:layout_constraintVertical_bias="0.12">
-
-            <TextView
-                android:id="@+id/textView20_e4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginBottom="8dp"
-                android:fontFamily="@font/raleway"
-                android:text="Via: Oral"
-                android:textColor="@color/text_hint"
-                android:textSize="16sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/textView20_e2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginBottom="48dp"
-                android:fontFamily="@font/raleway"
-                android:text="Time: 7:00AM"
-                android:textColor="@color/text_hint"
-                android:textSize="16sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/textView20_e3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginBottom="28dp"
-                android:fontFamily="@font/raleway"
-                android:text="Intervas of: 8 Hours"
-                android:textColor="@color/text_hint"
-                android:textSize="16sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/textView20_e"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginBottom="68dp"
-                android:fontFamily="@font/raleway"
-                android:text="Dosage: 20mg"
-                android:textColor="@color/text_hint"
-                android:textSize="16sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
-
-            <TextView
-                android:id="@+id/textView19"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
-                android:layout_marginTop="7dp"
-                android:text="Penicilin"
-                android:textColor="@color/letters"
-                android:textSize="28sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="33dp"
-                android:layout_height="32dp"
-                android:layout_marginTop="23dp"
-                android:layout_marginEnd="33dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/e_up_back_arrow" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
         <Button
             android:id="@+id/btn_addMedicine"
             android:layout_width="0dp"
@@ -325,13 +175,41 @@
             android:drawableLeft="@drawable/plus"
             android:drawablePadding="25dp"
             android:onClick="openFile"
-            android:text="@string/more_medicine"
+            android:text="More Medicine"
             android:textColor="@color/white"
             app:cornerRadius="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn_addMedicine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout10"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycleMedicine"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:listitem="@layout/medicine_card" />
+            </LinearLayout>
+        </ScrollView>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

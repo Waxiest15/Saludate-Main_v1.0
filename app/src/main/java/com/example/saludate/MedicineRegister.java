@@ -1,77 +1,81 @@
 package com.example.saludate;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.text.TextUtils;
 import android.view.View;
-import android.widget.EditText;
+import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ProgressBar;
 import android.widget.Toast;
+import android.widget.EditText;
 
 import com.example.saludate.ui.account.AccountFragment;
-import com.google.android.material.textfield.TextInputEditText;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
-public class MedicineRegister extends AppCompat {
+public class MedicineRegister extends AppCompatActivity {
+    EditText name, dosis, via, hora, intervalos;
 
-    private EditText medicineName, dosage, timee, intervals, viaa;
-    private ImageButton saveBtn;
-    private ProgressBar loadingPB;
-    private FirebaseDatabase firebaseDatabase;
-    FirebaseAuth firebaseAuth;
-    private DatabaseReference databaseReference;
-    private String M_ID;
+    Medicine_Object newMedicine = new Medicine_Object();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_medicine_register);
-        firebaseAuth = FirebaseAuth.getInstance();
-        medicineName = findViewById(R.id.editTxt_medicineNameh);
-        dosage = findViewById(R.id.editTxt_dosageh);
-        timee = findViewById(R.id.editTxt_timeh);
-        intervals = findViewById(R.id.editTxt_intervalsh);
-        viaa = findViewById(R.id.editTxt_viah);
-        saveBtn = findViewById(R.id.btn_okh);
-        loadingPB = findViewById(R.id.idPBLoading);
-        firebaseDatabase = FirebaseDatabase.getInstance();
-        databaseReference = firebaseDatabase.getReference("Enfermeras");
 
-        saveBtn.setOnClickListener(new View.OnClickListener() {
+        Intent respond = getIntent();
+        String id = respond.getStringExtra(Medicine_e.EXTRA_MESSAGE_3);
+
+        Toast.makeText(this, "<"+id+">", Toast.LENGTH_SHORT).show();
+
+        name=findViewById(R.id.editTxt_medicineNameh);
+        dosis=findViewById(R.id.editTxt_dosageh);
+        hora=findViewById(R.id.editTxt_timeh);
+        intervalos=findViewById(R.id.editTxt_intervalsh);
+        via=findViewById(R.id.editTxt_viah);
+
+        ImageButton btnCreate = findViewById(R.id.btn_okh);
+        btnCreate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadingPB.setVisibility(View.VISIBLE);
-                String name = medicineName.getText().toString();
-                String dosis = dosage.getText().toString();
-                String time = timee.getText().toString();
-                String interv = intervals.getText().toString();
-                String via = viaa.getText().toString();
-                M_ID = firebaseAuth.getCurrentUser().getUid();
+                //Asigan el nodo Employee para poner nodos dentro de el
+                DatabaseReference dbRef = FirebaseDatabase.getInstance().getReference().child("Enfermeras/enf_1/patients/"+id+"/medice");
+                try {
+                    //condiciones para asegurarse que los campos requeridos tienen informacion
+                    if (TextUtils.isEmpty(name.getText().toString()))
+                        Toast.makeText(getApplicationContext(), "Please Enter Medicine Name", Toast.LENGTH_SHORT).show();
+                    else if (TextUtils.isEmpty(dosis.getText().toString()))
+                        Toast.makeText(getApplicationContext(), "Please Enter Dosis", Toast.LENGTH_SHORT).show();
+                    else if (TextUtils.isEmpty(hora.getText().toString()))
+                        Toast.makeText(getApplicationContext(), "Please Enter Time", Toast.LENGTH_SHORT).show();
+                    else if (TextUtils.isEmpty(intervalos.getText().toString()))
+                        Toast.makeText(getApplicationContext(), "Please Enter Intevals", Toast.LENGTH_SHORT).show();
+                    else if (TextUtils.isEmpty(via.getText().toString()))
+                        Toast.makeText(getApplicationContext(), "Please Enter VIA", Toast.LENGTH_SHORT).show();
+                    else {
+                        newMedicine.setName(name.getText().toString());
+                        newMedicine.setDosis(dosis.getText().toString());
+                        newMedicine.setIntervals(intervalos.getText().toString());
+                        newMedicine.setTime(hora.getText().toString());
+                        newMedicine.setVia(via.getText().toString());
 
-                MedicineRegisterModel medicineRegisterModel = new MedicineRegisterModel(M_ID,dosis,name,time,via,interv);
-                databaseReference.addValueEventListener(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        loadingPB.setVisibility(View.GONE);
-                        databaseReference.child(M_ID).child("patients").child("medice").setValue(medicineRegisterModel);
-                        Toast.makeText(MedicineRegister.this, "Medicine Added...", Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(MedicineRegister.this, MainActivity.class));
-                    }
+                        dbRef.child(newMedicine.getName()).setValue(newMedicine);
 
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError error) {
-                        Toast.makeText(MedicineRegister.this, "Error is"+error.toString(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Data inserted successfully", Toast.LENGTH_SHORT).show();
                     }
-                });
+                } catch (NumberFormatException e) {
+                    Toast.makeText(getApplicationContext(), "Invalid contact Number", Toast.LENGTH_SHORT).show();
+                }finally {
+                    finish();
+                }
             }
         });
     }
+
+
+
+
 }
