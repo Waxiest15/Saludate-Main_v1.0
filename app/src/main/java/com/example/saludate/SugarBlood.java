@@ -71,4 +71,7 @@ public class SugarBlood extends AppCompat {
             }
         });
     }
+    public void onClick(View view){
+        finish();
+    }
 }

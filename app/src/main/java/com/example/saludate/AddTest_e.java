@@ -68,4 +68,7 @@ public class AddTest_e extends AppCompat {
             }
         });
     }
+    public void onClick(View view){
+        finish();
+    }
 }

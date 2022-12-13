@@ -23,4 +23,7 @@ public class OTP_Verification extends AppCompat {
             }
         });
     }
+    public void onClick(View view){
+        finish();
+    }
 }

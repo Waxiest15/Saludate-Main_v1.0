@@ -70,4 +70,7 @@ public class BloodPreasure extends AppCompat {
             }
         });
     }
+    public void onClick(View view){
+        finish();
+    }
 }

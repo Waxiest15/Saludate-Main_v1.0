@@ -41,4 +41,7 @@ public class VitalSigns extends AppCompat {
         }
         startActivity(act);
     }
+    public void onClick(View view){
+        finish();
+    }
 }

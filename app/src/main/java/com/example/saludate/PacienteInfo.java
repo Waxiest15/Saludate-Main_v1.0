@@ -116,4 +116,8 @@ public class PacienteInfo extends AppCompat {
         });
 
     }
+
+    public void onClick(View view){
+        finish();
+    }
 }

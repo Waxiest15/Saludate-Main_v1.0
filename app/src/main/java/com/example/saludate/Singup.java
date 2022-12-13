@@ -77,11 +77,7 @@ public class Singup extends AppCompat {
         intent=new Intent(getApplicationContext(),Login.class);
         startActivity(intent);
     }
-
-
-
-
-
-
-
+    public void onClick(View view){
+        finish();
+    }
 }

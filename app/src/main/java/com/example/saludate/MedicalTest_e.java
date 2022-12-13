@@ -77,4 +77,8 @@ public class MedicalTest_e extends AppCompatActivity {
         Intent act = new Intent(MedicalTest_e.this, AddTest_e.class);
         startActivity(act);
     }
+
+    public void onClick(View view){
+        finish();
+    }
 }

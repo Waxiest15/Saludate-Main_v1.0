@@ -79,4 +79,7 @@ public class MedicineRegister extends AppCompat {
             }
         });
     }
+    public void onClick(View view){
+        finish();
+    }
 }

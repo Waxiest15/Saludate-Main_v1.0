@@ -23,4 +23,7 @@ public class PasswordChanged extends AppCompat {
             }
         });
     }
+    public void onClick(View view){
+        finish();
+    }
 }

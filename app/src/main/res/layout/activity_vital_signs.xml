@@ -10,7 +10,7 @@
 
     <TextView
         android:id="@+id/textView2_e"
-        android:layout_width="wrap_content"
+        android:layout_width="169dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
         android:fontFamily="@font/raleway_semibold"
@@ -34,87 +34,112 @@
 
     <ImageButton
         android:id="@+id/butt_sugarBlood_e"
-        android:layout_width="148dp"
-        android:layout_height="148dp"
+        android:layout_width="147dp"
+        android:layout_height="142dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="12dp"
         android:background="#FFFFFF"
         android:onClick="onClik"
         android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/butt_heartRate_e"
+        app:layout_constraintEnd_toStartOf="@+id/butt_temperature_e"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider2"
         app:srcCompat="@drawable/sugarblood" />
 
     <ImageButton
         android:id="@+id/butt_temperature_e"
-        android:layout_width="145dp"
-        android:layout_height="145dp"
+        android:layout_width="147dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="46dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="28dp"
+        android:layout_marginBottom="12dp"
         android:background="#FFFFFF"
         android:onClick="onClik"
         android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/butt_bloodPreasure_e"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/butt_sugarBlood_e"
         app:layout_constraintTop_toBottomOf="@+id/divider2"
         app:srcCompat="@drawable/temperature" />
 
     <ImageButton
         android:id="@+id/butt_heartRate_e"
-        android:layout_width="148dp"
-        android:layout_height="148dp"
+        android:layout_width="147dp"
+        android:layout_height="0dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="12dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="13dp"
         android:background="#FFFFFF"
         android:onClick="onClik"
         android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/butt_breathingFrequency_e"
+        app:layout_constraintEnd_toStartOf="@+id/butt_bloodPreasure_e"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/butt_sugarBlood_e"
         app:srcCompat="@drawable/heartrate" />
 
     <ImageButton
         android:id="@+id/butt_bloodPreasure_e"
-        android:layout_width="148dp"
-        android:layout_height="148dp"
+        android:layout_width="147dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="28dp"
+        android:layout_marginBottom="12dp"
         android:background="@android:color/transparent"
         android:onClick="onClik"
         android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/butt_oxygenation_e"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/butt_heartRate_e"
         app:layout_constraintTop_toBottomOf="@+id/butt_temperature_e"
         app:srcCompat="@drawable/bloodpresure" />
 
     <ImageButton
         android:id="@+id/butt_breathingFrequency_e"
-        android:layout_width="148dp"
-        android:layout_height="148dp"
+        android:layout_width="0dp"
+        android:layout_height="147dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:background="#FFFFFF"
         android:onClick="onClik"
         android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/butt_healtCondition_e"
+        app:layout_constraintEnd_toStartOf="@+id/butt_oxygenation_e"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/butt_heartRate_e"
         app:srcCompat="@drawable/breathingfrecuency" />
 
     <ImageButton
         android:id="@+id/butt_oxygenation_e"
-        android:layout_width="148dp"
-        android:layout_height="148dp"
+        android:layout_width="0dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="28dp"
+        android:layout_marginBottom="8dp"
         android:background="#FFFFFF"
         android:onClick="onClik"
         android:padding="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/butt_healtCondition_e"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/butt_breathingFrequency_e"
         app:layout_constraintTop_toBottomOf="@+id/butt_bloodPreasure_e"
         app:srcCompat="@drawable/oxygenation" />
 
     <ImageButton
         android:id="@+id/butt_healtCondition_e"
-        android:layout_width="148dp"
-        android:layout_height="148dp"
+        android:layout_width="147dp"
+        android:layout_height="0dp"
         android:layout_marginStart="131dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="132dp"
         android:layout_marginBottom="4dp"
         android:background="#FFFFFF"
@@ -122,8 +147,9 @@
         android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butt_breathingFrequency_e"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/healtcondition" />
 
     <ImageButton
@@ -135,6 +161,7 @@
         android:background="@android:color/transparent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onClick"
         app:srcCompat="@drawable/back" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

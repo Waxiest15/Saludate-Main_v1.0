@@ -70,4 +70,7 @@ public class Temperature extends AppCompat {
             }
         });
     }
+    public void onClick(View view){
+        finish();
+    }
 }

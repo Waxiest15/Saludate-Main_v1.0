@@ -105,4 +105,8 @@ public class Medicine_e extends AppCompat {
         // system file picker when it loads.
         startActivityForResult(intent, PICK_PDF_FILE);
     }
+
+    public void onClick(View view){
+        finish();
+    }
 }

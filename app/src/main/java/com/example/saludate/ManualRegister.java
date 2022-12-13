@@ -110,4 +110,7 @@ public class ManualRegister extends AppCompat {
             }
         });
     }
+    public void onClick(View view){
+        finish();
+    }
 }

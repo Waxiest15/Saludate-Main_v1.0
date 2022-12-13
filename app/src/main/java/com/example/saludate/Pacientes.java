@@ -109,8 +109,8 @@ public class Pacientes extends AppCompat {
                 startActivity(intent_addPatient);
             }
         });
-
-
-
+    }
+    public void onClick(View view){
+        finish();
     }
 }

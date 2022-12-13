@@ -506,6 +506,7 @@
                 android:backgroundTint="@color/fondo"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
+                android:onClick="onClick"
                 app:srcCompat="@drawable/back" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

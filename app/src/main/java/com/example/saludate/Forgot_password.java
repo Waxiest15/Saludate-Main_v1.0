@@ -29,4 +29,7 @@ public class Forgot_password extends AppCompat {
         startActivity(intent);
     }
 
+    public void onClick(View view){
+        finish();
+    }
 }
